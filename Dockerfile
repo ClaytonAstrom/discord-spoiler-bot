@@ -11,4 +11,4 @@ RUN apk update \
     && cd ./discord-spoiler-bot \
     && yarn install
 
-ENTRYPOINT ["node index.js"]
+ENTRYPOINT ["node ~/discord-spoiler-bot/index.js"]
